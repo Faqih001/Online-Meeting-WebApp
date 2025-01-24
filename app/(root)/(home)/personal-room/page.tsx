@@ -33,6 +33,8 @@ const PersonalRoom = () => {
 
   // useUser hook to get the user object
   const router = useRouter();
+
+  // useStreamVideoClient hook to get the client object
   const { user } = useUser();
   const client = useStreamVideoClient();
   const { toast } = useToast();
