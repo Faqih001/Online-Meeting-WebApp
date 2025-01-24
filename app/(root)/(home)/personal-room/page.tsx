@@ -30,6 +30,8 @@ const Table = ({
 
 // PersonalRoom component that uses the useUser, useStreamVideoClient, useRouter, useGetCallById, and useToast hooks
 const PersonalRoom = () => {
+
+  // useUser hook to get the user object
   const router = useRouter();
   const { user } = useUser();
   const client = useStreamVideoClient();
