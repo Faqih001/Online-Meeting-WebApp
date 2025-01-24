@@ -44,6 +44,7 @@ const PersonalRoom = () => {
   // meetingId variable that stores the user's id
   const meetingId = user?.id;
 
+  // useGetCallById hook to get the call object
   const { call } = useGetCallById(meetingId!);
 
   const startRoom = async () => {
