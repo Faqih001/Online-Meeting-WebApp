@@ -49,6 +49,8 @@ const PersonalRoom = () => {
 
   // startRoom function that starts the room if the client and user objects are not null
   const startRoom = async () => {
+
+    // If the client or user object is null, return
     if (!client || !user) return;
 
     const newCall = client.call("default", meetingId!);
