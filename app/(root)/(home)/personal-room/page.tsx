@@ -8,6 +8,7 @@ import { useGetCallById } from "@/hooks/useGetCallById";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/components/ui/use-toast";
 
+// Table with title, description with type string as props 
 const Table = ({
   title,
   description,
