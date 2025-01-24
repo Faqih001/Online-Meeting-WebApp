@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   description: 'A workspace for your team, powered by Stream Chat and Clerk.',
 };
 
+// RootLayout component that uses the Navbar and Sidebar components to display the main layout of the app
 const RootLayout = ({ children }: Readonly<{children: ReactNode}>) => {
   return (
     <main className="relative">
