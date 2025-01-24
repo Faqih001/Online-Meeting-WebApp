@@ -56,6 +56,7 @@ const PersonalRoom = () => {
     // newCall variable that stores the client call with the default meetingId
     const newCall = client.call("default", meetingId!);
 
+    // If the call object is null, create a new call object with the starts_at property set to the current date
     if (!call) {
       await newCall.getOrCreate({
         data: {
