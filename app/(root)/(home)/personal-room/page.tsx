@@ -53,6 +53,7 @@ const PersonalRoom = () => {
     // If the client or user object is null, return
     if (!client || !user) return;
 
+    // newCall variable that stores the client call with the default meetingId
     const newCall = client.call("default", meetingId!);
 
     if (!call) {
