@@ -41,6 +41,7 @@ const PersonalRoom = () => {
   // useRouter hook to get the router object
   const { toast } = useToast();
 
+  // meetingId variable that stores the user's id
   const meetingId = user?.id;
 
   const { call } = useGetCallById(meetingId!);
