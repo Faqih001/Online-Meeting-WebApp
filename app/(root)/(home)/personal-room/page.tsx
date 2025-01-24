@@ -47,6 +47,7 @@ const PersonalRoom = () => {
   // useGetCallById hook to get the call object
   const { call } = useGetCallById(meetingId!);
 
+  // startRoom function that starts the room if the client and user objects are not null
   const startRoom = async () => {
     if (!client || !user) return;
 
