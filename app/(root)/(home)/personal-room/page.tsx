@@ -65,6 +65,7 @@ const PersonalRoom = () => {
       });
     }
 
+    // Redirect the user to the meeting page with the personal flag set to true
     router.push(`/meeting/${meetingId}?personal=true`);
   };
 
