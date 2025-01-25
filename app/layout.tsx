@@ -11,7 +11,7 @@ import { Toaster } from "@/components/ui/toaster";
 // Import the Inter font from Google Fonts and set the subsets to Latin
 const inter = Inter({ subsets: ["latin"] });
 
-// RootLayout component that uses the ClerkProvider component to wrap the main content of the app
+// Metadata for the YOOM video calling app that uses the ClerkProvider component to wrap the main content of the app
 export const metadata: Metadata = {
   title: "YOOM",
   description: "Video calling App",
