@@ -8,6 +8,8 @@ const Home = () => {
 
   // Format the time and date to display in the correct format on the home page
   const time = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+
+  // Format the date to display in the correct format on the home page
   const date = (new Intl.DateTimeFormat('en-US', { dateStyle: 'full' })).format(now);
 
   return (
