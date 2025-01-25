@@ -16,6 +16,8 @@ const MeetingPage = () => {
 
   // Get the call ID from the URL parameter to display the correct meeting
   const { id } = useParams();
+
+  // Get the current user and check if the user is loaded
   const { isLoaded, user } = useUser();
   const { call, isCallLoading } = useGetCallById(id);
   const [isSetupComplete, setIsSetupComplete] = useState(false);
