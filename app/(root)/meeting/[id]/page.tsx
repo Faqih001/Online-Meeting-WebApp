@@ -29,6 +29,7 @@ const MeetingPage = () => {
   // Return the meeting page component with the correct content based on the user and call information
   if (!isLoaded || isCallLoading) return <Loader />;
 
+  // If the call is not found, display an error message to the user that the call was not found
   if (!call) return (
     <p className="text-center text-3xl font-bold text-white">
       Call Not Found
