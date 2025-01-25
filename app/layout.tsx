@@ -20,6 +20,7 @@ export const metadata: Metadata = {
   },
 };
 
+// RootLayout component that uses the ClerkProvider component to wrap the main content of the app
 export default function RootLayout({
   children,
 }: Readonly<{ children: ReactNode }>) {
