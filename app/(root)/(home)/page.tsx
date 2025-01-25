@@ -12,6 +12,7 @@ const Home = () => {
   // Format the date to display in the correct format on the home page
   const date = (new Intl.DateTimeFormat('en-US', { dateStyle: 'full' })).format(now);
 
+  // Return the home page component with the current time and date displayed
   return (
     <section className="flex size-full flex-col gap-5 text-white">
       <div className="h-[303px] w-full rounded-[20px] bg-hero bg-cover">
