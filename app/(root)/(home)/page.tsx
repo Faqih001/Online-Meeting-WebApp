@@ -1,5 +1,6 @@
 import MeetingTypeList from '@/components/MeetingTypeList';
 
+// Home page component that uses the MeetingTypeList component to display the different types of meetings the user can create and join
 const Home = () => {
   const now = new Date();
 
