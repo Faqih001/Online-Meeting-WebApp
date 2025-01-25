@@ -43,6 +43,7 @@ export interface ButtonProps
   asChild?: boolean;
 }
 
+// Button component that uses the forwardRef function to forward the ref to the button element
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   ({ className, variant, size, asChild = false, ...props }, ref) => {
     const Comp = asChild ? Slot : 'button';
