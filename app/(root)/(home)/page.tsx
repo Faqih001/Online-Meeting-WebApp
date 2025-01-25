@@ -2,6 +2,8 @@ import MeetingTypeList from '@/components/MeetingTypeList';
 
 // Home page component that uses the MeetingTypeList component to display the different types of meetings the user can create and join
 const Home = () => {
+
+  // Get the current time and date to display on the home page
   const now = new Date();
 
   const time = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
