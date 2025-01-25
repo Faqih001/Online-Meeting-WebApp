@@ -26,6 +26,7 @@ const MeetingPage = () => {
   // Set the state of the setup completion to display the correct content on the meeting page
   const [isSetupComplete, setIsSetupComplete] = useState(false);
 
+  // Return the meeting page component with the correct content based on the user and call information
   if (!isLoaded || isCallLoading) return <Loader />;
 
   if (!call) return (
