@@ -8,6 +8,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 
+// Import the Inter font from Google Fonts and set the subsets to Latin
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
