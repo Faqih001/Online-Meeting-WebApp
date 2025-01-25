@@ -22,6 +22,8 @@ const MeetingPage = () => {
 
   // Get the call and check if the call is loading to display the correct content
   const { call, isCallLoading } = useGetCallById(id);
+  
+  // Set the state of the setup completion to display the correct content on the meeting page
   const [isSetupComplete, setIsSetupComplete] = useState(false);
 
   if (!isLoaded || isCallLoading) return <Loader />;
