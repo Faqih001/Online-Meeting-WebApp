@@ -11,6 +11,7 @@ import Alert from '@/components/Alert';
 import MeetingSetup from '@/components/MeetingSetup';
 import MeetingRoom from '@/components/MeetingRoom';
 
+// MeetingPage component that uses the StreamCall, StreamTheme, Loader, useGetCallById, Alert, MeetingSetup, and MeetingRoom components to display the meeting page
 const MeetingPage = () => {
   const { id } = useParams();
   const { isLoaded, user } = useUser();
