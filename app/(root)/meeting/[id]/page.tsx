@@ -42,6 +42,7 @@ const MeetingPage = () => {
   // If the user is not allowed to join the meeting, display an error message to the user that they are not allowed to join the meeting
   if (notAllowed) return <Alert title="You are not allowed to join this meeting" />;
 
+  // Return the meeting page component with the correct content based on the setup completion state
   return (
     <main className="h-screen w-full">
       <StreamCall call={call}>
