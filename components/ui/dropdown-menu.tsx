@@ -21,6 +21,7 @@ const DropdownMenuPortal = DropdownMenuPrimitive.Portal;
 // DropdownMenuSub component that uses the DropdownMenuPrimitive.Sub component to render the dropdown menu sub component
 const DropdownMenuSub = DropdownMenuPrimitive.Sub;
 
+// DropdownMenuRadioGroup component that uses the DropdownMenuPrimitive.RadioGroup component to render the dropdown menu radio group component
 const DropdownMenuRadioGroup = DropdownMenuPrimitive.RadioGroup;
 
 const DropdownMenuSubTrigger = React.forwardRef<
