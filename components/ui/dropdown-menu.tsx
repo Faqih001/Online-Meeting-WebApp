@@ -44,8 +44,7 @@ const DropdownMenuSubTrigger = React.forwardRef<
     <ChevronRight className="ml-auto size-4" />
   </DropdownMenuPrimitive.SubTrigger>
 ));
-DropdownMenuSubTrigger.displayName =
-  DropdownMenuPrimitive.SubTrigger.displayName;
+DropdownMenuSubTrigger.displayName = DropdownMenuPrimitive.SubTrigger.displayName;
 
 // DropdownMenuSubContent component that uses the DropdownMenuPrimitive.SubContent component to render the dropdown menu sub content component
 const DropdownMenuSubContent = React.forwardRef<
