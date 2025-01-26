@@ -89,6 +89,7 @@ const DialogFooter = ({
 );
 DialogFooter.displayName = 'DialogFooter';
 
+// DialogTitle component that uses the DialogPrimitive.Title component and the cn function to create a dialogTitleVariants object
 const DialogTitle = React.forwardRef<
   React.ElementRef<typeof DialogPrimitive.Title>,
   React.ComponentPropsWithoutRef<typeof DialogPrimitive.Title>
