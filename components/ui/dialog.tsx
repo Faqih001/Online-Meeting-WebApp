@@ -9,6 +9,7 @@ import { cn } from '@/lib/utils';
 // Dialog component that uses the cn function to create a dialogVariants object
 const Dialog = DialogPrimitive.Root;
 
+// DialogTrigger component that uses the DialogPrimitive.Trigger component
 const DialogTrigger = DialogPrimitive.Trigger;
 
 const DialogPortal = DialogPrimitive.Portal;
