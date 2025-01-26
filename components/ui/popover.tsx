@@ -11,6 +11,7 @@ const Popover = PopoverPrimitive.Root
 // PopoverTrigger component that uses the PopoverPrimitive.Trigger component to render the popover trigger component
 const PopoverTrigger = PopoverPrimitive.Trigger
 
+// PopoverContent component that uses the PopoverPrimitive.Content component to render the popover content component
 const PopoverContent = React.forwardRef<
   React.ElementRef<typeof PopoverPrimitive.Content>,
   React.ComponentPropsWithoutRef<typeof PopoverPrimitive.Content>
