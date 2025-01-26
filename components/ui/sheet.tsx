@@ -13,6 +13,7 @@ const Sheet = SheetPrimitive.Root;
 // SheetTrigger component that uses the SheetPrimitive.Trigger component to render the sheet trigger component
 const SheetTrigger = SheetPrimitive.Trigger;
 
+// SheetClose component that uses the SheetPrimitive.Close component to render the sheet close component
 const SheetClose = SheetPrimitive.Close;
 
 const SheetPortal = SheetPrimitive.Portal;
