@@ -16,6 +16,7 @@ const SheetTrigger = SheetPrimitive.Trigger;
 // SheetClose component that uses the SheetPrimitive.Close component to render the sheet close component
 const SheetClose = SheetPrimitive.Close;
 
+// SheetPortal component that uses the SheetPrimitive.Portal component to render the sheet portal component
 const SheetPortal = SheetPrimitive.Portal;
 
 const SheetOverlay = React.forwardRef<
