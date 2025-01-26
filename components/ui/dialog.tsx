@@ -6,6 +6,7 @@ import { X } from 'lucide-react';
 
 import { cn } from '@/lib/utils';
 
+// Dialog component that uses the cn function to create a dialogVariants object
 const Dialog = DialogPrimitive.Root;
 
 const DialogTrigger = DialogPrimitive.Trigger;
