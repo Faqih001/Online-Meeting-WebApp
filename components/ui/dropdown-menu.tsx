@@ -6,6 +6,7 @@ import { Check, ChevronRight, Circle } from 'lucide-react';
 
 import { cn } from '@/lib/utils';
 
+// DropdownMenu component that uses the DropdownMenuPrimitive.Root component to render the dropdown menu component 
 const DropdownMenu = DropdownMenuPrimitive.Root;
 
 const DropdownMenuTrigger = DropdownMenuPrimitive.Trigger;
