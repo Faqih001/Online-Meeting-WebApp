@@ -18,6 +18,7 @@ const DialogPortal = DialogPrimitive.Portal;
 // DialogClose component that uses the DialogPrimitive.Close component
 const DialogClose = DialogPrimitive.Close;
 
+// DialogOverlay component that uses the DialogPrimitive.Overlay component
 const DialogOverlay = React.forwardRef<
   React.ElementRef<typeof DialogPrimitive.Overlay>,
   React.ComponentPropsWithoutRef<typeof DialogPrimitive.Overlay>
