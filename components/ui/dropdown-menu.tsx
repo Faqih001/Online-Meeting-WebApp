@@ -9,8 +9,10 @@ import { cn } from '@/lib/utils';
 // DropdownMenu component that uses the DropdownMenuPrimitive.Root component to render the dropdown menu component 
 const DropdownMenu = DropdownMenuPrimitive.Root;
 
+// DropdownMenuTrigger component that uses the DropdownMenuPrimitive.Trigger component to render the dropdown menu trigger component
 const DropdownMenuTrigger = DropdownMenuPrimitive.Trigger;
 
+//
 const DropdownMenuGroup = DropdownMenuPrimitive.Group;
 
 const DropdownMenuPortal = DropdownMenuPrimitive.Portal;
