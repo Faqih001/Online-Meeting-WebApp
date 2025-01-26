@@ -10,6 +10,7 @@ import { cn } from '@/lib/utils';
 // Sheet component that uses the SheetPrimitive.Root component to render the sheet component
 const Sheet = SheetPrimitive.Root;
 
+// SheetTrigger component that uses the SheetPrimitive.Trigger component to render the sheet trigger component
 const SheetTrigger = SheetPrimitive.Trigger;
 
 const SheetClose = SheetPrimitive.Close;
