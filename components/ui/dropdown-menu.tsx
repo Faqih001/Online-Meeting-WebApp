@@ -24,6 +24,7 @@ const DropdownMenuSub = DropdownMenuPrimitive.Sub;
 // DropdownMenuRadioGroup component that uses the DropdownMenuPrimitive.RadioGroup component to render the dropdown menu radio group component
 const DropdownMenuRadioGroup = DropdownMenuPrimitive.RadioGroup;
 
+// DropdownMenuSubTrigger component that uses the DropdownMenuPrimitive.SubTrigger component to render the dropdown menu sub trigger component
 const DropdownMenuSubTrigger = React.forwardRef<
   React.ElementRef<typeof DropdownMenuPrimitive.SubTrigger>,
   React.ComponentPropsWithoutRef<typeof DropdownMenuPrimitive.SubTrigger> & {
