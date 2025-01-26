@@ -61,8 +61,7 @@ const DropdownMenuSubContent = React.forwardRef<
     {...props}
   />
 ));
-DropdownMenuSubContent.displayName =
-  DropdownMenuPrimitive.SubContent.displayName;
+DropdownMenuSubContent.displayName = DropdownMenuPrimitive.SubContent.displayName;
 
 // DropdownMenuContent component that uses the DropdownMenuPrimitive.Content component to render the dropdown menu content component
 const DropdownMenuContent = React.forwardRef<
