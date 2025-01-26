@@ -18,6 +18,7 @@ const DropdownMenuGroup = DropdownMenuPrimitive.Group;
 // DropdownMenuPortal component that uses the DropdownMenuPrimitive.Portal component to render the dropdown menu portal component
 const DropdownMenuPortal = DropdownMenuPrimitive.Portal;
 
+// DropdownMenuSub component that uses the DropdownMenuPrimitive.Sub component to render the dropdown menu sub component
 const DropdownMenuSub = DropdownMenuPrimitive.Sub;
 
 const DropdownMenuRadioGroup = DropdownMenuPrimitive.RadioGroup;
