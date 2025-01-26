@@ -74,6 +74,7 @@ const DialogHeader = ({
 );
 DialogHeader.displayName = 'DialogHeader';
 
+// DialogFooter component that uses the cn function to create a dialogFooterVariants object 
 const DialogFooter = ({
   className,
   ...props
