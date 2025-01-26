@@ -19,6 +19,7 @@ const SheetClose = SheetPrimitive.Close;
 // SheetPortal component that uses the SheetPrimitive.Portal component to render the sheet portal component
 const SheetPortal = SheetPrimitive.Portal;
 
+// SheetOverlay component that uses the SheetPrimitive.Overlay component to render the sheet overlay component
 const SheetOverlay = React.forwardRef<
   React.ElementRef<typeof SheetPrimitive.Overlay>,
   React.ComponentPropsWithoutRef<typeof SheetPrimitive.Overlay>
