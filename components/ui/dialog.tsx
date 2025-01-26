@@ -12,6 +12,7 @@ const Dialog = DialogPrimitive.Root;
 // DialogTrigger component that uses the DialogPrimitive.Trigger component
 const DialogTrigger = DialogPrimitive.Trigger;
 
+// DialogPortal component that uses the DialogPrimitive.Portal component
 const DialogPortal = DialogPrimitive.Portal;
 
 const DialogClose = DialogPrimitive.Close;
