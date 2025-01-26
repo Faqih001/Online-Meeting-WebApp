@@ -2,6 +2,7 @@ import * as React from "react"
 
 import { cn } from "@/lib/utils"
 
+// Input component that uses the input element to render the input component
 export interface InputProps
   extends React.InputHTMLAttributes<HTMLInputElement> {}
 
