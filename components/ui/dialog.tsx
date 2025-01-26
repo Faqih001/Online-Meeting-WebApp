@@ -59,6 +59,7 @@ const DialogContent = React.forwardRef<
 ));
 DialogContent.displayName = DialogPrimitive.Content.displayName;
 
+// DialogHeader component that uses the cn function to create a dialogHeaderVariants object 
 const DialogHeader = ({
   className,
   ...props
