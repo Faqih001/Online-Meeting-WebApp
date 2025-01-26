@@ -34,7 +34,7 @@ const DialogOverlay = React.forwardRef<
 ));
 DialogOverlay.displayName = DialogPrimitive.Overlay.displayName;
 
-// DialogContent component that uses the DialogPrimitive.Content component
+// DialogContent component that uses the DialogPrimitive.Content component and the DialogPortal component to render the dialog content and overlay components respectively 
 const DialogContent = React.forwardRef<
   React.ElementRef<typeof DialogPrimitive.Content>,
   React.ComponentPropsWithoutRef<typeof DialogPrimitive.Content>
