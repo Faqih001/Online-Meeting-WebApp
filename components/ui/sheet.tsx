@@ -7,6 +7,7 @@ import { X } from 'lucide-react';
 
 import { cn } from '@/lib/utils';
 
+// Sheet component that uses the SheetPrimitive.Root component to render the sheet component
 const Sheet = SheetPrimitive.Root;
 
 const SheetTrigger = SheetPrimitive.Trigger;
