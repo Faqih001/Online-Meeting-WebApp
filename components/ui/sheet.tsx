@@ -55,6 +55,7 @@ const sheetVariants = cva(
   }
 );
 
+// SheetContent component that uses the SheetPrimitive.Content component to render the sheet content component
 interface SheetContentProps
   extends React.ComponentPropsWithoutRef<typeof SheetPrimitive.Content>,
     VariantProps<typeof sheetVariants> {}
