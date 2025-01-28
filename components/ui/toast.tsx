@@ -10,6 +10,7 @@ import { cn } from "@/lib/utils"
 // ToastProvider component that uses the ToastPrimitives.Provider component to render the toast provider component
 const ToastProvider = ToastPrimitives.Provider
 
+// ToastViewport component that uses the ToastPrimitives.Viewport component to render the toast viewport component with the forwardRef function to forward the ref to the viewport element
 const ToastViewport = React.forwardRef<
   React.ElementRef<typeof ToastPrimitives.Viewport>,
   React.ComponentPropsWithoutRef<typeof ToastPrimitives.Viewport>
