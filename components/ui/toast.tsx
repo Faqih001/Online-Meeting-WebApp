@@ -59,6 +59,7 @@ const Toast = React.forwardRef<
 })
 Toast.displayName = ToastPrimitives.Root.displayName
 
+// ToastAction component that uses the forwardRef function to forward the ref to the toast action element with the variant set to toastVariants and the default variant set to default
 const ToastAction = React.forwardRef<
   React.ElementRef<typeof ToastPrimitives.Action>,
   React.ComponentPropsWithoutRef<typeof ToastPrimitives.Action>
