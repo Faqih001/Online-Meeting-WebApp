@@ -97,6 +97,7 @@ const SheetHeader = ({
 );
 SheetHeader.displayName = 'SheetHeader';
 
+// SheetFooter component that uses the SheetPrimitive.Footer component to render the sheet footer component
 const SheetFooter = ({
   className,
   ...props
