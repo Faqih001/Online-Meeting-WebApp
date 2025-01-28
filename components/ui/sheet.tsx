@@ -112,6 +112,7 @@ const SheetFooter = ({
 );
 SheetFooter.displayName = 'SheetFooter';
 
+// SheetTitle component that uses the forwardRef function to forward the ref to the sheet title component
 const SheetTitle = React.forwardRef<
   React.ElementRef<typeof SheetPrimitive.Title>,
   React.ComponentPropsWithoutRef<typeof SheetPrimitive.Title>
