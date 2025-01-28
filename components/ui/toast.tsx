@@ -123,6 +123,7 @@ ToastDescription.displayName = ToastPrimitives.Description.displayName
 // Export the ToastProvider, ToastViewport, Toast, ToastTitle, ToastDescription, ToastClose, and ToastAction components
 type ToastProps = React.ComponentPropsWithoutRef<typeof Toast>
 
+// Export the ToastActionElement component
 type ToastActionElement = React.ReactElement<typeof ToastAction>
 
 export {
