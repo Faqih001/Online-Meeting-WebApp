@@ -7,6 +7,7 @@ import { X } from "lucide-react"
 
 import { cn } from "@/lib/utils"
 
+// ToastProvider component that uses the ToastPrimitives.Provider component to render the toast provider component
 const ToastProvider = ToastPrimitives.Provider
 
 const ToastViewport = React.forwardRef<
