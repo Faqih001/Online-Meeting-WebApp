@@ -107,6 +107,7 @@ const ToastTitle = React.forwardRef<
 ))
 ToastTitle.displayName = ToastPrimitives.Title.displayName
 
+// ToastDescription component that uses the forwardRef function to forward the ref to the toast description element with the variant set to toastVariants and the default variant set to default
 const ToastDescription = React.forwardRef<
   React.ElementRef<typeof ToastPrimitives.Description>,
   React.ComponentPropsWithoutRef<typeof ToastPrimitives.Description>
