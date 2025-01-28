@@ -82,6 +82,7 @@ const SheetContent = React.forwardRef<
 ));
 SheetContent.displayName = SheetPrimitive.Content.displayName;
 
+// SheetHeader component that uses the SheetPrimitive.Header component to render the sheet header component
 const SheetHeader = ({
   className,
   ...props
