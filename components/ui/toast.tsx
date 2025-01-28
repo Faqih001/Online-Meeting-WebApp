@@ -75,6 +75,7 @@ const ToastAction = React.forwardRef<
 ))
 ToastAction.displayName = ToastPrimitives.Action.displayName
 
+// ToastClose component that uses the forwardRef function to forward the ref to the toast close element with the variant set to toastVariants and the default variant set to default
 const ToastClose = React.forwardRef<
   React.ElementRef<typeof ToastPrimitives.Close>,
   React.ComponentPropsWithoutRef<typeof ToastPrimitives.Close>
