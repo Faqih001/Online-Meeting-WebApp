@@ -43,6 +43,7 @@ const toastVariants = cva(
   }
 )
 
+// Toast component that uses the forwardRef function to forward the ref to the toast element with the variant set to toastVariants and the default variant set to default
 const Toast = React.forwardRef<
   React.ElementRef<typeof ToastPrimitives.Root>,
   React.ComponentPropsWithoutRef<typeof ToastPrimitives.Root> &
