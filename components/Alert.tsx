@@ -10,6 +10,7 @@ interface PermissionCardProps {
   iconUrl?: string;
 }
 
+// PermissionCard component that uses the PermissionCardProps interface to render the permission card component
 const Alert = ({ title, iconUrl }: PermissionCardProps) => {
   return (
     <section className="flex-center h-screen w-full">
