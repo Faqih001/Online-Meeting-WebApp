@@ -30,6 +30,7 @@ const EndCallButton = () => {
 
   if (!isMeetingOwner) return null;
 
+  // endCall function that ends the call and pushes the router to the home page
   const endCall = async () => {
     await call.endCall();
     router.push('/');
