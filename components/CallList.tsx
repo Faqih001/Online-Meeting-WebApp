@@ -13,6 +13,8 @@ const CallList = ({ type }: { type: 'ended' | 'upcoming' | 'recordings' }) => {
 
   // Use the useRouter hook to get the router object from the next/navigation module
   const router = useRouter();
+
+  // Use the useGetCalls hook to get the endedCalls, upcomingCalls, callRecordings, and isLoading from the useGetCalls hook
   const { endedCalls, upcomingCalls, callRecordings, isLoading } =
     useGetCalls();
   const [recordings, setRecordings] = useState<CallRecording[]>([]);
