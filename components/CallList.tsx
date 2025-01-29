@@ -19,6 +19,7 @@ const CallList = ({ type }: { type: 'ended' | 'upcoming' | 'recordings' }) => {
     useGetCalls();
   const [recordings, setRecordings] = useState<CallRecording[]>([]);
 
+  // getCalls function that returns the calls based on the type prop
   const getCalls = () => {
     switch (type) {
       case 'ended':
