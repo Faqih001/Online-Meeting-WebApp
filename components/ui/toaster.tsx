@@ -16,6 +16,7 @@ export function Toaster() {
   // Use the useToast hook to get the toasts from the toast provider
   const { toasts } = useToast();
 
+  // Return the ToastProvider component with the toasts mapped to the toast component
   return (
     <ToastProvider>
       {toasts.map(function ({ id, title, description, action, ...props }) {
