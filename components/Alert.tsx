@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { Button } from './ui/button';
 import { Card, CardContent } from './ui/card';
 
+// PermissionCardProps interface that defines the props for the PermissionCard component
 interface PermissionCardProps {
   title: string;
   iconUrl?: string;
