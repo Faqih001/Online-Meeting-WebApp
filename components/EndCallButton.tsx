@@ -12,6 +12,7 @@ const EndCallButton = () => {
   const call = useCall();
   const router = useRouter();
 
+  // If there is no call, throw an error with the message "useStreamCall must be used within a StreamCall component."
   if (!call)
     throw new Error(
       'useStreamCall must be used within a StreamCall component.',
