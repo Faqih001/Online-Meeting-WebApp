@@ -64,6 +64,7 @@ const CallList = ({ type }: { type: 'ended' | 'upcoming' | 'recordings' }) => {
       setRecordings(recordings);
     };
 
+    // If the type is recordings, fetch the recordings
     if (type === 'recordings') {
       fetchRecordings();
     }
