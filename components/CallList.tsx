@@ -50,6 +50,8 @@ const CallList = ({ type }: { type: 'ended' | 'upcoming' | 'recordings' }) => {
   // useEffect hook that fetches the recordings based on the type prop
   useEffect(() => {
     const fetchRecordings = async () => {
+
+      // Use the Promise.all function to get the callData from the callRecordings mapped to the queryRecordings function
       const callData = await Promise.all(
         callRecordings?.map((meeting) => meeting.queryRecordings()) ?? [],
       );
