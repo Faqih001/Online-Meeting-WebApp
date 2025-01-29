@@ -56,6 +56,7 @@ const CallList = ({ type }: { type: 'ended' | 'upcoming' | 'recordings' }) => {
         callRecordings?.map((meeting) => meeting.queryRecordings()) ?? [],
       );
 
+      // Use the setRecordings function to set the recordings based on the callData
       const recordings = callData
         .filter((call) => call.recordings.length > 0)
         .flatMap((call) => call.recordings);
