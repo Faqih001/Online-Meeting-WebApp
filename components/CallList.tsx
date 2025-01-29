@@ -73,6 +73,7 @@ const CallList = ({ type }: { type: 'ended' | 'upcoming' | 'recordings' }) => {
   // If the isLoading is true, return the Loader component
   if (isLoading) return <Loader />;
 
+  // Return the grid with the calls mapped to the MeetingCard component
   const calls = getCalls();
   const noCallsMessage = getNoCallsMessage();
 
