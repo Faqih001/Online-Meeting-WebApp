@@ -12,6 +12,8 @@ import { useToast } from "@/components/ui/use-toast";
 
 // Toaster component that uses the ToastProvider component to render the toast provider component
 export function Toaster() {
+
+  // Use the useToast hook to get the toasts from the toast provider
   const { toasts } = useToast();
 
   return (
