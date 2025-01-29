@@ -22,6 +22,7 @@ const EndCallButton = () => {
   const { useLocalParticipant } = useCallStateHooks();
   const localParticipant = useLocalParticipant();
 
+  // If the localParticipant is not the call owner, return null
   const isMeetingOwner =
     localParticipant &&
     call.state.createdBy &&
