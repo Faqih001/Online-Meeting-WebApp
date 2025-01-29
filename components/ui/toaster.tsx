@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/toast";
 import { useToast } from "@/components/ui/use-toast";
 
+// Toaster component that uses the ToastProvider component to render the toast provider component
 export function Toaster() {
   const { toasts } = useToast();
 
