@@ -7,6 +7,8 @@ import { useRouter } from 'next/navigation';
 
 // EndCallButton component that uses the useCall and useCallStateHooks hooks to render the end call button component
 const EndCallButton = () => {
+
+  // Use the useCall hook to get the call from the StreamCall component
   const call = useCall();
   const router = useRouter();
 
