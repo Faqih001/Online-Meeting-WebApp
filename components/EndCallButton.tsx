@@ -5,6 +5,7 @@ import { useCall, useCallStateHooks } from '@stream-io/video-react-sdk';
 import { Button } from './ui/button';
 import { useRouter } from 'next/navigation';
 
+// EndCallButton component that uses the useCall and useCallStateHooks hooks to render the end call button component
 const EndCallButton = () => {
   const call = useCall();
   const router = useRouter();
