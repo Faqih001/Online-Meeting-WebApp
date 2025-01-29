@@ -10,6 +10,8 @@ import { useRouter } from 'next/navigation';
 
 // CallList component that uses the type prop to render the call list component with the ended, upcoming, or recordings type
 const CallList = ({ type }: { type: 'ended' | 'upcoming' | 'recordings' }) => {
+
+  // Use the useRouter hook to get the router object from the next/navigation module
   const router = useRouter();
   const { endedCalls, upcomingCalls, callRecordings, isLoading } =
     useGetCalls();
