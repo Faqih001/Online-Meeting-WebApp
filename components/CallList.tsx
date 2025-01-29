@@ -47,6 +47,7 @@ const CallList = ({ type }: { type: 'ended' | 'upcoming' | 'recordings' }) => {
     }
   };
 
+  // useEffect hook that fetches the recordings based on the type prop
   useEffect(() => {
     const fetchRecordings = async () => {
       const callData = await Promise.all(
