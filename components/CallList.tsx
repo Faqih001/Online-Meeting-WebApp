@@ -70,6 +70,7 @@ const CallList = ({ type }: { type: 'ended' | 'upcoming' | 'recordings' }) => {
     }
   }, [type, callRecordings]);
 
+  // If the isLoading is true, return the Loader component
   if (isLoading) return <Loader />;
 
   const calls = getCalls();
