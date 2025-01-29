@@ -33,6 +33,7 @@ const CallList = ({ type }: { type: 'ended' | 'upcoming' | 'recordings' }) => {
     }
   };
 
+  // getNoCallsMessage function that returns the no calls message based on the type prop
   const getNoCallsMessage = () => {
     switch (type) {
       case 'ended':
