@@ -21,6 +21,8 @@ const MeetingSetup = ({
 
   // Call start time and end time states to check if the call has started or ended
   const callStartsAt = useCallStartsAt();
+
+  // Call end time state to check if the call has ended
   const callEndedAt = useCallEndedAt();
   const callTimeNotArrived =
     callStartsAt && new Date(callStartsAt) > new Date();
