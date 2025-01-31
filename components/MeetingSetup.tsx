@@ -30,6 +30,7 @@ const MeetingSetup = ({
     callStartsAt && new Date(callStartsAt) > new Date();
   const callHasEnded = !!callEndedAt;
 
+  // useCall hook to get the call object from the StreamCall component
   const call = useCall();
 
   if (!call) {
