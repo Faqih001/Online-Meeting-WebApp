@@ -33,6 +33,7 @@ const MeetingSetup = ({
   // useCall hook to get the call object from the StreamCall component
   const call = useCall();
 
+  // If the call object is not available, throw an error
   if (!call) {
     throw new Error(
       'useStreamCall must be used within a StreamCall component.',
