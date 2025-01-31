@@ -20,6 +20,7 @@ interface MeetingModalProps {
   buttonIcon?: string;
 }
 
+// MeetingModal component that uses the MeetingModalProps interface to render the meeting modal component with the props passed to it from the parent component
 const MeetingModal = ({
   isOpen,
   onClose,
