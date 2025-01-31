@@ -4,6 +4,7 @@ import Image from 'next/image';
 
 import { cn } from '@/lib/utils';
 
+// Home Card props type definition that defines the props for the HomeCard component
 interface HomeCardProps {
   className?: string;
   img: string;
