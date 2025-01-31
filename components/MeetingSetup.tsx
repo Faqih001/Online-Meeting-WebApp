@@ -43,6 +43,7 @@ const MeetingSetup = ({
   // https://getstream.io/video/docs/react/ui-cookbook/replacing-call-controls/
   const [isMicCamToggled, setIsMicCamToggled] = useState(false);
 
+  // useEffect hook to disable the camera and microphone if the mic and camera are toggled off
   useEffect(() => {
     if (isMicCamToggled) {
       call.camera.disable();
