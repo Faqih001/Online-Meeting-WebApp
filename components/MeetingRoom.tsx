@@ -41,6 +41,7 @@ const MeetingRoom = () => {
   // if the call is not joined yet, show the loader component until the call is joined
   if (callingState !== CallingState.JOINED) return <Loader />;
 
+  // CallLayout component that renders the call layout based on the layout state
   const CallLayout = () => {
     switch (layout) {
       case 'grid':
