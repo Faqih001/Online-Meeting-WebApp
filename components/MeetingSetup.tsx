@@ -71,6 +71,7 @@ const MeetingSetup = ({
       />
     );
 
+  // Return the meeting setup component with the setup options
   return (
     <div className="flex h-screen w-full flex-col items-center justify-center gap-3 text-white">
       <h1 className="text-center text-2xl font-bold">Setup</h1>
