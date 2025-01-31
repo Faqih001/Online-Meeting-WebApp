@@ -19,6 +19,7 @@ interface MeetingCardProps {
   link: string;
 }
 
+// MeetingCard component that uses the MeetingCardProps interface to render the meeting card component with the props passed to it from the parent component
 const MeetingCard = ({
   icon,
   title,
