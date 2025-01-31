@@ -18,6 +18,8 @@ const MeetingSetup = ({
 }) => {
   // https://getstream.io/video/docs/react/guides/call-and-participant-state/#call-state
   const { useCallEndedAt, useCallStartsAt } = useCallStateHooks();
+
+  // Call start time and end time states to check if the call has started or ended
   const callStartsAt = useCallStartsAt();
   const callEndedAt = useCallEndedAt();
   const callTimeNotArrived =
