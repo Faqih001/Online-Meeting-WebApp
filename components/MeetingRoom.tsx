@@ -38,6 +38,7 @@ const MeetingRoom = () => {
   // for more detail about types of CallingState see: https://getstream.io/video/docs/react/ui-cookbook/ringing-call/#incoming-call-panel
   const callingState = useCallCallingState();
 
+  // if the call is not joined yet, show the loader component until the call is joined
   if (callingState !== CallingState.JOINED) return <Loader />;
 
   const CallLayout = () => {
