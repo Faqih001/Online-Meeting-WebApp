@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import { Button } from "./ui/button";
 import Image from "next/image";
 
+// MeetingModalProps interface that defines the props for the MeetingModal component 
 interface MeetingModalProps {
   isOpen: boolean;
   onClose: () => void;
