@@ -10,6 +10,7 @@ import {
 import Alert from './Alert';
 import { Button } from './ui/button';
 
+// MeetingSetup component that uses the useCallStateHooks hook to render the meeting setup component with the setup options
 const MeetingSetup = ({
   setIsSetupComplete,
 }: {
