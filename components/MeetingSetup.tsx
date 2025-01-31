@@ -54,6 +54,7 @@ const MeetingSetup = ({
     }
   }, [isMicCamToggled, call.camera, call.microphone]);
 
+  // Return the meeting setup component with the setup options
   if (callTimeNotArrived)
     return (
       <Alert
