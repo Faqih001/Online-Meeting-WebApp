@@ -62,6 +62,7 @@ const MeetingSetup = ({
       />
     );
 
+  // Return the meeting setup component with the setup options
   if (callHasEnded)
     return (
       <Alert
