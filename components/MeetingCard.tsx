@@ -7,6 +7,7 @@ import { Button } from "./ui/button";
 import { avatarImages } from "@/constants";
 import { useToast } from "./ui/use-toast";
 
+// MeetingCardProps interface that defines the props for the MeetingCard component 
 interface MeetingCardProps {
   title: string;
   date: string;
