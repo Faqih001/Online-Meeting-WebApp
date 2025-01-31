@@ -53,6 +53,7 @@ const MeetingRoom = () => {
     }
   };
 
+  // Return the meeting room component with the call layout, show participants, and layout state
   return (
     <section className="relative h-screen w-full overflow-hidden pt-4 text-white">
       <div className="relative flex size-full items-center justify-center">
