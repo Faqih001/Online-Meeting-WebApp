@@ -13,6 +13,7 @@ interface HomeCardProps {
   handleClick?: () => void;
 }
 
+// HomeCard component that uses the HomeCardProps interface to render the home card component with the props passed to it from the parent component
 const HomeCard = ({ className, img, title, description, handleClick }: HomeCardProps) => {
   return (
     <section
