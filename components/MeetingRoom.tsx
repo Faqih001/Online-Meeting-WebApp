@@ -26,6 +26,7 @@ import { cn } from '@/lib/utils';
 // CallLayoutType type that defines the layout types for the call layout
 type CallLayoutType = 'grid' | 'speaker-left' | 'speaker-right';
 
+// MeetingRoom component that uses the useCallStateHooks hook to render the meeting room component with the call layout, show participants, and layout state
 const MeetingRoom = () => {
   const searchParams = useSearchParams();
   const isPersonalRoom = !!searchParams.get('personal');
